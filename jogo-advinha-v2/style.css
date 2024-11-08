@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Anton', monospace
+}
+
+body {
+    background-color: hsla(0, 19%, 80%, 0.514);
+}
+
+
+#container{
+    padding-top: 80px;
+    justify-content: center;
+    display: flex;   
+}
+
+h1 {
+    padding: 10px;
+    font-size: 3em;
+    text-align: center;
+}
+
+button {
+    width: 120px;
+    height: 120px;
+   
+}
+
+#tabuleiro {
+    
+    padding: 40px;
+    border-radius: 35px;
+    background-color: hsla(219, 100%, 75%, 0.568);
+    box-shadow: 15px 14px 56px;
+    
+}
+
+#informacao {
+    border-radius: 0 35px 35px 0 ;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    
+  
+}
+
+h2{
+    
+    padding: 10px 25px 60px;
+    justify-content: center;
+    background-color: hsla(219, 100%, 75%, 0.568);
+    border-radius: 0 35px 35px 0 ;
+    border: 1px solid black;
+    border-left: none;
+}
+
+footer {
+    text-align: center;
+    
+}
+img{
+   width: 100%;
+}
+
+
+
+
+
+
+
+   
